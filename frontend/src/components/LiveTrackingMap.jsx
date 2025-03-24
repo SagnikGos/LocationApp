@@ -5,7 +5,7 @@ import 'leaflet/dist/leaflet.css';
 import { Search, MapPin, Navigation, X } from 'lucide-react';
 import debounce from 'lodash/debounce';
 
-const socket = io('http://localhost:5000'); // Change to your server URL
+const socket = io('https://locationapp-4y3o.onrender.com'); // Change to your server URL
 
 // Custom component to handle map centering and zooming
 const MapCenterController = ({ center, zoom }) => {
